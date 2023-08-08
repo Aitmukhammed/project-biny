@@ -1,0 +1,35 @@
+          <q-list>
+            <q-btn
+              no-caps
+              :icon="'img:/icons/biny_icons/history_orders.svg'"
+              label="История заказов"
+              class="textMenu historyBtn"
+              style="margin-top: -6px; width: 94%; align-items: flex-start;"
+              />
+              <q-separator class="bottom_line q-ml-sm q-mr-sm q-mb-md" size="0.5px" style="margin-top: 5px;"/>
+
+              <q-btn
+              no-caps
+              :icon="'img:/icons/biny_icons/transportCompany.svg'"
+              label="Транспортные компании"
+              class="textMenu historyBtn"
+              style="margin-top: -6px; width: 94%; align-items: flex-start;"
+              />
+
+              <q-btn
+              no-caps
+              :icon="'img:/icons/biny_icons/directions.svg'"
+              label="Направления"
+              class="textMenu historyBtn"
+              style="margin-top: -6px; width: 94%; align-items: flex-start;"
+              />
+
+              <!-- <q-item clickable >
+                <q-item-section avatar>
+                  <q-icon :name="'img:/icons/biny_icons/history_orders.svg'" />
+                </q-item-section>
+                <q-item-section>
+                  История заказов
+                </q-item-section>
+              </q-item> -->
+          </q-list>
